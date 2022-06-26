@@ -425,7 +425,7 @@ public class HystrixObservableCommandTest extends CommonHystrixCommandTests<Test
      * Test a command execution that fails asynchronously, has getFallback implemented but that fails as well (synchronously).
      */
     @Test
-    public void testSemaphoreIsolatedObserveAyncFailureWithSyncFallbackFailure() {
+    public void testSemaphoreIsolatedObserveSyncFailureWithSyncFallbackFailure() {
         testObserveFailureWithFallbackFailure(ExecutionIsolationStrategy.SEMAPHORE, true, false);
     }
 
@@ -457,7 +457,7 @@ public class HystrixObservableCommandTest extends CommonHystrixCommandTests<Test
      * Test a command execution that fails asynchronously, has getFallback implemented but that fails as well (synchronously).
      */
     @Test
-    public void testThreadIsolatedObserveAyncFailureWithSyncFallbackFailure() {
+    public void testThreadIsolatedObserveSyncFailureWithSyncFallbackFailure() {
         testObserveFailureWithFallbackFailure(ExecutionIsolationStrategy.THREAD, false, true);
     }
 

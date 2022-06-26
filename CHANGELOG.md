@@ -982,7 +982,7 @@ See the module README for more information: https://github.com/Netflix/Hystrix/t
 * [Issue 63](https://github.com/Netflix/Hystrix/issues/63) Add "throws Exception" to HystrixCommand run() method
 * [Pull 62](https://github.com/Netflix/Hystrix/pull/62) applying js fixes to threadPool ui
 * [Pull 61](https://github.com/Netflix/Hystrix/pull/61) Request log with timeouts
-* [Issue 55](https://github.com/Netflix/Hystrix/issues/55) HysrixRequestLog: Missing Events and Time on Timeouts
+* [Issue 55](https://github.com/Netflix/Hystrix/issues/55) HystrixRequestLog: Missing Events and Time on Timeouts
 * [Issue 20](https://github.com/Netflix/Hystrix/issues/20) TotalExecutionTime not tracked on queue()
 * [Pull 57](https://github.com/Netflix/Hystrix/pull/57) Dashboard js fix
 * [Issue 39](https://github.com/Netflix/Hystrix/issues/39) HystrixPlugins Bootstrapping Problem - Race Conditions
